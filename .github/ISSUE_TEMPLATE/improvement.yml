@@ -10,25 +10,17 @@ body:
   - type: textarea
     id: feature
     attributes:
-      label: 哪个功能需要优化？
-      description: 你觉得哪个功能可以做得更好？
+      label: 需要优化的功能？
+      description: 这个功能有什么让你觉得需要改进的地方？
+      placeholder: 例如：某项指令误触频率过高/可以添加更多子功能
     validations:
       required: true
-
-  - type: textarea
-    id: current
-    attributes:
-      label: 现在有什么问题？
-      description: 目前这个功能有什么让你觉得不够好用的地方？
-      placeholder: 例如：某项功能误触频率过高/可以添加更多指令
-    validations:
-      required: false
 
   - type: textarea
     id: suggestion
     attributes:
       label: 你希望怎么改进？
-      description: 说说你觉得应该怎么优化？
+      description: 你觉得应该怎么优化？
     validations:
       required: false
 

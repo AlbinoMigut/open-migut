@@ -1,5 +1,5 @@
 name: "功能建议"
-description: "有好点子？来告诉Migut吧！"
+description: "有什么好点子？"
 labels: ["enhancement"]
 body:
   - type: markdown
