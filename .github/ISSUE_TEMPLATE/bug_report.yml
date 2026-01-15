@@ -1,0 +1,56 @@
+name: "Bug 反馈"
+description: "功能无法使用或者行为不符合预期？"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量填写下面的信息，这样能更快解决问题！
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 简单说说发生了什么？
+      placeholder: 例如：发送某条指令后没有回复
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎么复现这个问题？
+      description: 你是怎么触发这个 bug 的？
+      placeholder: |
+        1. 在群里发送 xxx 指令
+        2. 等待几秒
+        3. 机器人没有任何反应
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望的结果
+      description: 正常情况下应该是什么样的？
+      placeholder: 例如：机器人应该回复一条消息
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图（如果有的话）
+      description: 贴上相关截图可以帮助我们更好理解问题
+      placeholder: 直接拖拽或粘贴图片到这里
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其他信息
+      description: 还有什么需要补充的吗？
+      placeholder: 例如：是否稳定触发？出现bug的频率？
+    validations:
+      required: false
