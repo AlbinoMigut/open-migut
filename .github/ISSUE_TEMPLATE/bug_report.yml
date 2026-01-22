@@ -3,10 +3,6 @@ description: "功能无法使用或者行为不符合预期？"
 title: "[Bug] "
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        请尽量填写下面的信息，这样能更快解决问题！
 
   - type: textarea
     id: description
@@ -20,8 +16,7 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: 怎么复现这个问题？
-      description: 你是怎么触发这个 bug 的？
+      label: bug 是如何被触发的？
       placeholder: |
         1. 在群里发送 xxx 指令
         2. 等待几秒
@@ -30,19 +25,9 @@ body:
       required: false
 
   - type: textarea
-    id: expected
-    attributes:
-      label: 你期望的结果
-      description: 正常情况下应该是什么样的？
-      placeholder: 例如：机器人应该回复一条消息
-    validations:
-      required: false
-
-  - type: textarea
     id: screenshots
     attributes:
       label: 截图（如果有的话）
-      description: 贴上相关截图可以帮助我们更好理解问题
       placeholder: 直接拖拽或粘贴图片到这里
     validations:
       required: false
@@ -53,5 +38,14 @@ body:
       label: 其他信息
       description: 还有什么需要补充的吗？
       placeholder: 例如：是否稳定触发？出现bug的频率？
+    validations:
+      required: false
+
+  - type: textarea
+    id: possible-solutions
+    attributes:
+      label: 可能的解决方案
+      description: 如果有任何关于如何解决这个问题的想法，请在这里分享！
+      placeholder: 例如：可能需要检查某个配置项，或者某个依赖版本不兼容
     validations:
       required: false
