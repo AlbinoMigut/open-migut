@@ -25,7 +25,7 @@ body:
     attributes:
       label: 示例或参考
       description: 有没有类似功能的截图或其他机器人的例子？
-      placeholder: 可以贴图片或者描述你见过的类似功能
+      placeholder: 可以贴图片或者描述见过的类似功能
     validations:
       required: false
 
