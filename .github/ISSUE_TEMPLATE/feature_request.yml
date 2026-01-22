@@ -2,16 +2,12 @@ name: "功能建议"
 description: "有什么好点子？"
 labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        请尽量填写下面的信息来描述你的想法！
 
   - type: textarea
     id: idea
     attributes:
       label: 你的想法
-      description: 描述一下你希望机器人能做什么？
+      description: 描述一下希望机器人能做什么？
     validations:
       required: true
 

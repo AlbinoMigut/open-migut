@@ -2,17 +2,13 @@ name: "功能优化"
 description: "觉得现有功能可以做得更好？"
 labels: ["improvement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        尽量填写下面的信息来更快解决问题！
 
   - type: textarea
     id: feature
     attributes:
       label: 需要优化的功能？
       description: 这个功能有什么让你觉得需要改进的地方？
-      placeholder: 例如：某项指令误触频率过高/可以添加更多子功能
+      placeholder: 如：某项指令误触频率过高/可以添加更多子功能
     validations:
       required: true
 
@@ -20,7 +16,7 @@ body:
     id: suggestion
     attributes:
       label: 你希望怎么改进？
-      description: 你觉得应该怎么优化？
+      description: 来点改进方案！
     validations:
       required: false
 
@@ -28,6 +24,6 @@ body:
     id: extra
     attributes:
       label: 补充说明
-      description: 还有什么需要补充的吗？
+      description: 还有需要补充的吗？
     validations:
       required: false

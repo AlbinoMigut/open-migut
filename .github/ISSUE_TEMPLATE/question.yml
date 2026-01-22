@@ -1,17 +1,13 @@
 name: "使用疑问"
-description: "有什么问题吗？"
+description: "有任何关于Migut的问题？"
 labels: ["question"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        关于功能或Bot本身的问题都可以提！
 
   - type: textarea
     id: question
     attributes:
       label: 你的问题
-      description: 有什么想问的？
+      description: 关于功能或Bot本身的问题都可以！
     validations:
       required: true
 
@@ -19,6 +15,6 @@ body:
     id: extra
     attributes:
       label: 其他信息
-      description: 还有什么需要补充的吗？
+      description: 随便写点吧~
     validations:
       required: false
