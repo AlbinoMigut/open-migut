@@ -16,7 +16,8 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: bug 是如何被触发的？
+      label: 如何复现
+      description: bug 是如何被触发的？
       placeholder: |
         1. 在群里发送 xxx 指令
         2. 等待几秒
@@ -25,18 +26,10 @@ body:
       required: false
 
   - type: textarea
-    id: screenshots
-    attributes:
-      label: 截图（如果有的话）
-      placeholder: 直接拖拽或粘贴图片到这里
-    validations:
-      required: false
-
-  - type: textarea
     id: extra
     attributes:
       label: 其他信息
-      description: 还有什么需要补充的吗？
+      description: 可以补充截图或其他相关信息
       placeholder: 例如：是否稳定触发？出现bug的频率？
     validations:
       required: false
