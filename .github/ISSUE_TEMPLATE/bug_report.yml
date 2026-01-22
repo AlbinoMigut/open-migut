@@ -1,5 +1,6 @@
 name: "Bug 反馈"
 description: "功能无法使用或者行为不符合预期？"
+title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown

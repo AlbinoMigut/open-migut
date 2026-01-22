@@ -1,5 +1,6 @@
 name: "使用疑问"
 description: "有任何关于Migut的问题？"
+title: "[Question] "
 labels: ["question"]
 body:
 
